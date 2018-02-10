@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Capitalizing Input</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<div id="inputBlock"><p>Write something here: <input type="text" id="userinp">
+	<button onclick="capitalizeInput()" id="buttonCap">Submit</button></p>
+	<p id="outputdone">Your output is: <span id="output"></span></p></div>
+	
+	<script>
+	$(document).ready(function () {
+			capitalizeInput();
+		});
+		
+	function capitalizeInput() {
+		var string = document.getElementById("userinp").value;
+		// document.getElementById("outputdone").innerHTML = "Your output is:";
+		document.getElementById("output").innerHTML = string;
+	}
+	</script>
+</body>
+</html>

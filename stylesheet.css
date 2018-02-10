@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600');
+
+#output {
+	text-transform: capitalize;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+#inputBlock {
+	font-family: 'Raleway', sans-serif;
+	color: #149b82;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 50px;
+	letter-spacing: 2px;
+}
+
+button {
+	font-family: 'Raleway', sans-serif;
+	color: #149b82;
+	font-size: 14px;
+	background-color: white;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	border: 1px solid #149b82;
+	text-shadow: none;
+	height: 24px;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	color: white;
+	background-color: #149b82;
+}
+
+button:focus {
+	outline: none;
+}
+
+input {
+	margin-left: 5px;
+	background-color: white;
+	letter-spacing: 1px;
+	height: 20px;
+	border: 1px solid #149b82;
+	width: 400px;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+}
+
+input:focus {
+	outline: none;
+}
